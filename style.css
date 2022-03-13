@@ -192,3 +192,10 @@ body {
     border: 2px solid #f9faf8;
 }
 
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    padding: 32px;
+    color: #e5e7eb;
+}
