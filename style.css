@@ -93,6 +93,7 @@ body {
     border-radius: 8px;
     margin: 8px 8px 8px 0;
     background-color: #3882f6;
+    border: none;
     color: #f9faf8;
     padding: 8px 32px;
     font-weight: bold;
@@ -109,6 +110,7 @@ body {
 
 .information-section .title {
     margin: 64px;
+    font-size: 24px;
 }
 
 .cards {
@@ -139,7 +141,7 @@ body {
 }
 
 .quote-section .quote {
-    font-size: 36px;
+    font-size: 24px;
     font-style: italic;
     color:#1f2937;
 }
@@ -149,3 +151,44 @@ body {
     font-weight: bold;
     text-align: right;
 }
+
+/* CALL TO ACTION SECTION */
+
+.call-to-action-section {
+    padding: 10% 10%;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.call-to-action-section .action-card {
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 5% 10%;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 36px;
+}
+
+.call-to-action-section h4 {
+    font-size: 18px;
+}
+
+.call-to-action-section .action-text {
+    flex: 3;
+}
+
+.call-to-action-section .action-button {
+    flex: 1;
+}
+
+.call-to-action-section .action-button button {
+    padding: 8px 32px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+}
+
