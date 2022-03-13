@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    justify-content: stretch;
+    justify-content: flex-start;
 }
 
 /* NAVBAR */
@@ -128,4 +128,24 @@ body {
     border: 2px solid #3882f6;
     border-radius: 8px;
     height: 128px;
+}
+
+/* QUOTE SECTION */
+
+.quote-section {
+    flex: 1;
+    background-color: #e5e7eb;
+    padding: 10% 25%;
+}
+
+.quote-section .quote {
+    font-size: 36px;
+    font-style: italic;
+    color:#1f2937;
+}
+
+.quote-section .author {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
 }
