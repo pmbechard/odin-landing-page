@@ -5,8 +5,11 @@
 
 body {
     display: flex;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* HEADER SECTION */
 
 .header-section {
     color: #f9faf8;
@@ -90,4 +93,35 @@ body {
     color: #f9faf8;
     padding: 8px 32px;
     font-weight: bold;
+}
+
+/*  INFORMATION SECTION */
+
+.information-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-section .title {
+    margin: 64px;
+}
+
+.cards {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    margin-bottom: 128px;
+}
+
+.card {
+    flex-basis: 128px;
+    color: gray;
+    font-size: 18px;
+}
+
+.cards .img-area {
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    height: 128px;
 }
